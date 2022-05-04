@@ -2,6 +2,24 @@
 <html>
   <head>
     <title>Isaak Krautwurst</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -13,19 +31,37 @@
     /></noscript>
   </head>
   <body class="is-preload">
-
     <section id="header">
       <div class="inner">
         <div id="name-nav">
           <h1>Isaak Krautwurst</h1>
-          						<nav id="nav">
-							<ul class="icons">
-								<li><a target="_blank" href="https://www.linkedin.com/in/isaak-krautwurst/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<!-- <li><a target="_blank" href="https://github.com/idkraut" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
-								<li><a target="_blank" href="assets/Isaak_Krautwurst_Resume_04-05-2022-00-43-38.pdf" class="icon fas fa-file-alt"><span class="label">Resume</span></a></li>
-								<li><a href="mailto:danmarino1014@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
+          <nav id="nav">
+            <ul class="icons">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/isaak-krautwurst/"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="assets/Isaak_Krautwurst_Resume_04-05-2022.pdf"
+                  class="icon fas fa-file-alt"
+                  ><span class="label">Resume</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:isaakkraut@gmail.com"
+                  class="icon solid alt fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
 
         <img
@@ -36,7 +72,8 @@
         <div class="inner" id="bio">
           <p>
             Hello! I'm a software engineer with years of experience in Ruby,
-            Javascript, and Go, as well as a variety of frameworks.
+            Javascript, and Go ecosystems, along with a variety of frameworks
+            and cloud technlogies.
           </p>
           <p>
             Most recently, I built
@@ -46,7 +83,7 @@
           </p>
         </div>
         <ul class="actions special">
-          <li><a href="#one" class="button scrolly">Explore</a></li>
+          <li><a href="#one" class="button scrolly">See More</a></li>
         </ul>
       </div>
     </section>
@@ -55,97 +92,55 @@
     <section id="one" class="hyphatext main style1">
       <div class="container">
         <div class="row aln-center">
-                    <div class="col-4 col-12-medium imp-medium">
-							<span><a href="https://teamhypha.com/"><img class="image fit" src="images/Hypha_logo_color.png" alt="Hypha Logo" /></a>
-						</div>
+          <div class="col-4 col-12-medium imp-medium">
+            <span
+              ><a href="https://teamhypha.com/"
+                ><img
+                  class="image fit"
+                  src="images/Hypha_logo_color.png"
+                  alt="Hypha Logo" /></a
+            ></span>
+          </div>
           <div class="col-9 col-12-medium">
             <p>
-              Hypha is an open-source observability framework for distributed
-              systems that combines the context of traces with the detail of
-              logs. It deploys an end-to-end telemetry pipeline that sets up
-              distributed tracing, aggregates existing logs, and correlates logs
-              with traces.
+              <a target="_blank" class="hypha" href="https://teamhypha.com/"
+                ><strong>Hypha</strong></a
+              >
+              is an open-source observability framework for distributed systems
+              that combines the context of traces with the detail of logs. It
+              deploys an end-to-end telemetry pipeline that sets up distributed
+              tracing, aggregates existing logs, and correlates logs with
+              traces.
             </p>
             <span class="image fit"
               ><img src="images/Hypha-Architecture.jpeg"
             /></span>
-
             <p>
               Hypha’s UI facilitates a debugging workflow that minimizes context
               switching, allowing users to flow between logs and traces to get a
               full view of their system.
             </p>
-
           </div>
-<div class="col-8 col-12-medium imp-medium">
-							<span><a href="https://teamhypha.com/"><img class="image fit" src="images/trace-and-logs.png" alt="Hypha Logo" /></a>
-              </div>
-<div class="col-7 col-12-medium row aln-center">
-<a target="_blank" href="https://teamhypha.com/case-study" class="button primary">Read the Case Study</a>
-
-              </div>
+          <div class="col-8 col-12-medium imp-medium">
+            <span
+              ><img
+                class="image fit"
+                src="images/trace-and-logs.png"
+                alt="Hypha Logo"
+            /></span>
+          </div>
+          <div class="col-7 col-12-medium row aln-center">
+            <a
+              target="_blank"
+              href="https://teamhypha.com/case-study"
+              class="button primary"
+              >Read the Case Study</a
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- <section id="two" class="main style1">
-      <div class="container">
-        <div class="row gtr-150">
-          <div class="col-6 col-12-medium">
-            <p>
-              <span class="callout"
-                ><a href="https://tryhorus.com" target="_blank">Horus</a></span
-              >
-              is an open-source observability solution for microservices. Users
-              can generate, store, and visualize correlated telemetry data,
-              allowing them to see the real-time health of their application.
-            </p>
-
-            <p>
-              Built using OpenTelemetry, Horus encompasses industry-leading
-              observability standards, technologies, and best practices to
-              ensure that the generated telemetry data is always in the user’s
-              hands and under their control.
-            </p>
-
-            <span class="image fit"
-              ><img src="images/Hypha_logo_color.png"
-            /></span>
-          </div>
-          <div class="col-6 col-12-medium">
-            <span class="image fit"
-              ><img src="images/trace-and-logs.png"
-            /></span>
-            <p>
-              With Horus, the user has the option to track both application
-              metrics and traces to gain the observability coverage they need.
-              Horus correlates the user’s application metrics with the traces
-              that occurred in that given time period, providing full
-              transparency over the interactions taking place across their
-              system’s infrastructure
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  href="https://tryhorus.com/case-study"
-                  target="_blank"
-                  class="button"
-                  >Read Case Study</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/watch?v=GqItxtXnMXk"
-                  target="_blank"
-                  class="button"
-                  >Watch Presentation</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <!-- Three -->
     <section id="three" class="main style2 special">
       <div class="container">
@@ -159,7 +154,8 @@
             /></span>
             <h3>Todo List</h3>
             <p>
-              A full-stack todo list manager. Built with vanilla JS, Handlebars, jQuery, Node.js, and Express.
+              A full-stack todo list manager. Built using Ruby, Sinatra, Heroku,
+              and PostreSQL.
             </p>
           </div>
           <div class="col-4 col-12-medium">
@@ -168,7 +164,8 @@
             /></span>
             <h3>Rekwest Bin</h3>
             <p>
-              A tool for receiving and debugging webhooks. Built using Go, Nginx, Digital Ocean Droplet, MongoDB, PM2, and ngrok.
+              A tool for receiving and debugging webhooks. Built using Go,
+              Nginx, Digital Ocean Droplet, MongoDB, PM2, and ngrok.
             </p>
           </div>
           <div class="col-4 col-12-medium">
@@ -177,7 +174,8 @@
             /></span>
             <h3>Reaction</h3>
             <p>
-              A trello-inspired Kanban board for project management. Built with React, Redux, Express, MongoDB, and Node.js.
+              A trello-inspired Kanban board for project management. Built using
+              React, Redux, Express, MongoDB, and Node.js.
             </p>
           </div>
         </div>
@@ -187,7 +185,21 @@
     <!-- Footer -->
 
     <section id="footer">
-
+      <h1>Let's Connect!</h1>
+      <dl class="alt contact">
+        <d2><b>Email</b></d2>
+        <dd>
+          <a href="mailto:isaakkraut@gmail.com">isaakkraut@gmail.com</a>
+        </dd>
+        <d2><b>Resume</b></d2>
+        <dd>
+          <a
+            href="assets/Isaak_Krautwurst_Resume_04-05-2022.pdf"
+            target="_blank"
+            >Resume PDF</a
+          >
+        </dd>
+      </dl>
       <ul class="icons">
         <li>
           <a
@@ -203,21 +215,6 @@
             href="https://github.com/idkraut"
             class="icon brands fa-github"
             ><span class="label">GitHub</span></a
-          >
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="assets/Isaak_Krautwurst_Resume.pdf"
-            class="icon fas fa-file-alt"
-            ><span class="label">Resume</span>Resume</a
-          >
-        </li>
-        <li>
-          <a
-            href="mailto:danmarino1014@gmail.com"
-            class="icon solid alt fa-envelope"
-            ><span class="label">Email</span>Email</a
           >
         </li>
       </ul>

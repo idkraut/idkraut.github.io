@@ -2683,6 +2683,9 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+    .contact {
+      margin-bottom: 1.7em;
+    }
 /* Button */
 
 	input[type="submit"],
@@ -2820,7 +2823,7 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: #F0F0F2;
 		}
 
 		.main.style2 {
@@ -3547,7 +3550,8 @@ input, select, textarea {
 	}
 
   .hyphatext {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 340;
   }
 
 	#name-nav {
