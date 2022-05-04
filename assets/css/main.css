@@ -2409,7 +2409,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -2779,7 +2779,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #555;
+			background-color: #4957F5;
 			box-shadow: none !important;
 			color: #fff !important;
 		}
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #626262;
+				background-color: #5865f7;
 			}
 
 			input[type="submit"].primary:active,
@@ -2797,7 +2797,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #484848;
+				background-color: #3040d2;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3324,9 +3324,11 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
-				.logo {
-					width: 50%;
-				}
+				/* .logo {
+          width: 29%;
+          margin-right: 20;
+          border-radius: 50%;
+				} */
 		/* Main */
 
 			.main {
@@ -3524,7 +3526,7 @@ input, select, textarea {
 
 	}
 
-	.haven {
+	.hypha {
 		font-style: normal;
 	}
 
@@ -3532,16 +3534,21 @@ input, select, textarea {
 		width: 29%;
 		float: left;
 		margin-left: 1%;
-		border-radius: 20%;
+		border-radius: 50%;
 	}
 
 	#bio {
-		font-size: 1.7rem;
-		text-align: left;
+		font-size: 2rem;
+		text-align: center;
+    line-height: 1.2em;
 		width: 66%;
 		float: right;
-		margin: 0 2%;
+		margin: 2% 2%;
 	}
+
+  .hyphatext {
+    font-size: 1.3rem;
+  }
 
 	#name-nav {
 		width: 68%;
