@@ -2790,7 +2790,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #4957F5;
+			background-color: #2291FA;
 			box-shadow: none !important;
 			color: #fff !important;
       margin: .7em;
@@ -3561,7 +3561,7 @@ input, select, textarea {
     padding-left: 20%;
     padding-right: 20%;
 
-		float: center;
+		/* float: center; */
 
 	}
 
