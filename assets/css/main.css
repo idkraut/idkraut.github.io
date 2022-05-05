@@ -3558,8 +3558,8 @@ input, select, textarea {
 		font-size: 2rem;
 		text-align: center;
     line-height: 1.2em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 20%;
+    padding-right: 20%;
 
 		float: center;
 
