@@ -3539,19 +3539,25 @@ input, select, textarea {
 	}
 
 	#profile {
-		width: 29%;
-		float: left;
-		margin-left: 1%;
-		border-radius: 50%;
+		width: 15%;
+		/* float: left;
+		margin-left: 1%; */
+		border-radius: 100%;
 	}
+  /* #profile {
+    border-radius: 100%;
+    width: 15%;
+    min-width: 10rem;
+  } */
 
 	#bio {
 		font-size: 2rem;
 		text-align: center;
     line-height: 1.2em;
-		width: 66%;
-		float: right;
-		margin: 2% 2%;
+		/* width: 66%; */
+		float: center;
+		margin-left: 20%;
+    margin-right: 20%;
 	}
 
   .hyphatext {
