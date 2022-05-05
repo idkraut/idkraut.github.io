@@ -2369,8 +2369,10 @@ input, select, textarea {
     }
 
     .hyphalogo {
-      width: 200px;
-      height: 200px;
+      max-width: 300px;
+      max-height: 300px;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: optimizeQuality crisp-edges;
     }
 
 		.image.left {
