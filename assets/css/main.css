@@ -2799,6 +2799,8 @@ input, select, textarea {
 			box-shadow: none !important;
 			color: #fff !important;
       margin: .7em;
+      padding-left: 1em;
+      padding-right: 1em;
 		}
 
 			input[type="submit"].primary:hover,
