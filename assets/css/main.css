@@ -2359,6 +2359,9 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+    .rekwest {
+      max-height: 0%;
+    }
 
 		.image img {
 			border-radius: 4px;
