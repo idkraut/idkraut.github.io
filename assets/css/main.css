@@ -3565,8 +3565,8 @@ input, select, textarea {
 		font-size: 2rem;
 		text-align: center;
     line-height: 1.2em;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 		/* float: center; */
 
@@ -3590,9 +3590,9 @@ input, select, textarea {
 			font-size: 1.2rem;
 		}
 
-		#bio {
-			font-size: 1.5rem;
-		}
+		/* #bio {
+			font-size: 1.2rem;
+		} */
 
 		#header {
 			padding: 3em 0 3em 0 ;
@@ -3608,12 +3608,12 @@ input, select, textarea {
 			/* width: 100% */
 		}
 
-		#profile {
+		/* #profile {
 
 		}
 		#bio {
 			font-size: 1.2rem;
-		}
+		} */
 
 	}
 
@@ -3631,12 +3631,12 @@ input, select, textarea {
 			float: none;
 			justify-content: center;
 		}
-		#bio {
+		/* #bio {
 			display: inline-block;
 			width: 70%;
 			float: none;
 			justify-content: center;
-		}
+		} */
 
 	}
 
